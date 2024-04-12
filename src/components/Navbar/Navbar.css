@@ -1,49 +1,49 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #115740;
-    height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #115740;
+  height: 30px;
 }
 
 .logo img {
-    width: 50px;
-    margin-right: 10px;
+  width: 50px;
+  margin-right: 10px;
 }
 
 .logo span {
-    font-weight: bold;
-  }
-  
-  .nav-links-container {
-    display: flex;
-    align-items: center;
-  }
-  .nav-links {
-    list-style: none;
-    display: flex;
-    margin-right: 10px;
-  }
-  
-  .nav-links li {
-    font-family: 'Alex Brush', cursive;
-     font-size: 20px;
-    margin-right: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .contact-btn {
-    font-family: 'Alex Brush', cursive;
-    padding: 10px 20px;
-    background-color: #F4A261;
-    color: #F4E4C3;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 20px;
-  }
+  font-weight: bold;
+}
+
+.nav-links-container {
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-right: 10px;
+}
+
+.nav-links li {
+  font-family: "Alex Brush", cursive;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-btn {
+  font-family: "Alex Brush", cursive;
+  padding: 10px 20px;
+  background-color: #f4a261;
+  color: #f4e4c3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}

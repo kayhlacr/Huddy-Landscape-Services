@@ -1,36 +1,33 @@
 .hero-section {
-    position: relative;
-    text-align: center;
-  }
-  
-  .hero-section img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .hero-section::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 99.5%;
-    background-color: #115740;
-    opacity: 0.6;
-  }
-  .hero-content {
-    position: absolute;
-    top: 35%;
-    left: 10%;
-    color: #F4E4C3;
-  }
-  
-  .hero-content h1 {
-    font-family: 'Alex Brush', cursive;
-    font-size: 50px;
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  
+  position: relative;
+  text-align: center;
+}
 
-  
+.hero-section img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99.5%;
+  background-color: #115740;
+  opacity: 0.6;
+}
+.hero-content {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  color: #f4e4c3;
+}
+
+.hero-content h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+}
