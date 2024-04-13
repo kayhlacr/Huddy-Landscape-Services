@@ -22,24 +22,57 @@ const ServicesSection = () => {
           </p>
         </div>
         <div className="service">
-          <h2>O1 </h2>
-          <h3>Landscape Construction</h3>
-          <img src={landscapeConstruction6} alt="Landscape Construction" />
+          <div className="number-container">
+            <h2>O1</h2>
+            <h3>Landscape Construction</h3>
+          </div>
+          <p>
+            Enhance your outdoor spaces with our expert landscape construction
+            services. From garden design to hardscaping, we create functional
+            and visually stunning environments that elevate your propertys
+            appeal.
+          </p>
+          <img
+            src={landscapeConstruction6}
+            alt="Landscape Construction"
+            className="off-set-img"
+          />
         </div>
 
         <div className="service irrigation-systems-service">
-          <h2>O2</h2>
-          <h3>Irrigation Systems</h3>
+          <div className="number-container">
+            <h2>O2</h2>
+            <h3>Irrigation Systems</h3>
+          </div>
+          <p>
+            Optimize water usage and maintain lush landscapes with our
+            cutting-edge irrigation systems. Our tailored solutions ensure
+            efficient watering for gardens, lawns, and green spaces, promoting
+            healthy growth while conserving resources.
+          </p>
           <img src={irrigationSystem1} alt="Irrigation Systems" />
         </div>
 
         <div className="service">
-          <h2>O3</h2>
-          <h3>Residential & Commercial Maintenance</h3>
-          <img src={maintenance3} alt="Residential & Commercial Maintenance" />
+          <div className="number-container">
+            <h2>O3</h2>
+            <h3>Residential & Commercial Maintenance</h3>
+          </div>
+          <p>
+            Keep your residential and commercial properties looking their best
+            with our comprehensive maintenance services. From lawn care to
+            property upkeep, we offer professional solutions tailored to your
+            needs, ensuring your outdoor spaces always make a lasting
+            impression.
+          </p>
+          <img
+            src={maintenance3}
+            alt="Residential & Commercial Maintenance"
+            className="off-set-img"
+          />
         </div>
       </div>
-      <div className="service landscape-construction-service">
+      <div className=" landscape-construction-service">
         <img src={LandscapeConstruction} alt="Landscape Construction" />
       </div>
     </section>
