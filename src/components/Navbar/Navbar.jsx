@@ -1,4 +1,5 @@
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -19,7 +20,9 @@ const Navbar = () => {
             <a href="/portfolio">Portfolio</a>
           </li>
         </ul>
-        <button className="contact-btn">Contact</button>
+        <Link to="/contact">
+          <button className="contact-btn">Contact</button>
+        </Link>
       </div>
     </nav>
   );

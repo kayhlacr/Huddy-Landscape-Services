@@ -1,0 +1,41 @@
+.contact-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 70px;
+  height: 100vh;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-column {
+  width: 45%;
+}
+
+.contact-item {
+  margin: 0 20px;
+}
+
+.contact-item img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #115740;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.contact-page h1 {
+  font-family: "Alex Brush", cursive;
+  color: #115740;
+  font-size: 40px;
+}
