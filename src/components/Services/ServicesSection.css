@@ -79,6 +79,14 @@
   z-index: 3;
 }
 
+.irrigation-systems-service img {
+  border-radius: 5px;
+}
+
+.off-set-img {
+  border-radius: 5px;
+}
+
 .landscape-construction-service {
   position: relative;
   width: 100%;
