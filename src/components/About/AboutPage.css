@@ -14,14 +14,34 @@ h2 {
 
 .left-align {
   text-align: left;
-  width: 50%;
+  width: 100%;
   float: left;
   clear: both;
 }
 
 .right-align {
   text-align: right;
-  width: 50%;
+  width: 100%;
   float: right;
   clear: both;
+}
+
+.paragraph-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.paragraph {
+  margin: 10px;
+}
+.image-container {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.image-container img {
+  height: auto;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 5px;
 }
