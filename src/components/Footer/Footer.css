@@ -23,12 +23,10 @@
   color: #fff;
 }
 
-.contact-info {
+.footer-contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
-  margin-bottom: 15px;
 }
 
 .icon {

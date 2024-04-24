@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <p className="company-name">Huddy Landscape Services, LLC</p>
-        <div className="contact-info">
+        <div className="footer-contact">
           <a
             href="mailto:huddylandscapeservice@gmail.com"
             target="_blank"

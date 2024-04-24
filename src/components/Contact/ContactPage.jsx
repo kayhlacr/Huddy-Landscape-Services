@@ -18,7 +18,7 @@ const ContactPage = () => {
               <a href="tel:808-515-3332">808-515-3332</a>
             </div>
           </div>
-          <div className="contact-item">
+          <div className="contact-item" id="weird-margin">
             <div className="contact-content">
               <a href="mailto:huddylandscapeservice@gmail.com">
                 <img src={emailIcon} alt="Email" />
