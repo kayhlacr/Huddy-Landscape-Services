@@ -18,6 +18,7 @@ function App() {
           {/* <Route path="/portfolio" element={<PortfolioPage />} /> */}
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
@@ -28,7 +29,6 @@ function Home() {
     <>
       <HeroSection />
       <ServicesSection />
-      <Footer />
     </>
   );
 }
