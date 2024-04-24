@@ -1,18 +1,17 @@
 .footer {
+  display: flex;
   align-items: center;
   background-color: #115740;
   width: 100%;
+  height: 60px;
+  overflow: hidden;
 }
 
 .footer-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.logo {
-  width: 50px;
-  margin-right: 10px;
+  width: 100%;
 }
 
 .company-name {
@@ -21,6 +20,7 @@
   font-size: 20px;
   margin-right: 10px;
   padding-left: 10px;
+  color: #fff;
 }
 
 .contact-info {
@@ -28,6 +28,7 @@
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+  margin-bottom: 15px;
 }
 
 .icon {
