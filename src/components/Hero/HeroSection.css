@@ -27,95 +27,19 @@
 
 .hero-content h1 {
   font-family: "Alex Brush", cursive;
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 20px;
   text-align: left;
 }
 
-/* @media only screen and (min-width: 320px) {
-  .hero-section img {
-    width: 768px;
-    height: auto;
-  }
-  .hero-section::before {
-    width: 768px;
-    height: 99.2%;
-  }
-
-  .hero-content {
-    top: 25%;
-    left: 5%;
-    margin-top: 40px;
-  }
-
+@media only screen and (min-width: 700px) {
   .hero-content h1 {
-    font-size: 40px;
-    text-align: center;
-  }
-} */
-
-/* @media only screen and (max-width: 375px) {
-  .hero-section img {
-    width: 375px;
-    height: auto;
-  }
-  .hero-section::before {
-    width: 375px;
-    height: 98.5%;
-  }
-
-  .hero-content {
-    top: 25%;
-    left: 5%;
-    margin-top: 40px;
-  }
-
-  .hero-content h1 {
-    font-size: 20px;
-    text-align: center;
+    font-size: 55px;
   }
 }
 
-@media only screen and (max-width: 425px) {
-  .hero-section img {
-    width: 425px;
-    height: auto;
-  }
-  .hero-section::before {
-    width: 425px;
-    height: 98.5%;
-  }
-
-  .hero-content {
-    top: 25%;
-    left: 5%;
-    margin-top: 40px;
-  }
-
+@media only screen and (min-width: 966px) {
   .hero-content h1 {
-    font-size: 20px;
-    text-align: center;
+    font-size: 80px;
   }
 }
-
-@media only screen and (max-width: 768px) {
-  .hero-section img {
-    width: 768px;
-    height: auto;
-  }
-  .hero-section::before {
-    width: 768px;
-    height: 99.2%;
-  }
-
-  .hero-content {
-    top: 25%;
-    left: 5%;
-    margin-top: 40px;
-  }
-
-  .hero-content h1 {
-    font-size: 40px;
-    text-align: center;
-  }
-} */

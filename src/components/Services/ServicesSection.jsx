@@ -9,7 +9,6 @@ const ServicesSection = () => {
     <section className="services-section">
       <div className="container">
         <div className="service-container">
-          <h1>Services</h1>
           <p>
             Welcome to Huddy Landscape Service, Inc., a testament to the lush
             beauty of Kauai, nurtured and curated by the hands of a family
@@ -20,8 +19,9 @@ const ServicesSection = () => {
             about cultivating connections—with nature, with our heritage, and
             with the people we serve.
           </p>
+          <h1>Services</h1>
         </div>
-        <div className="service">
+        <div className="service ">
           <div className="number-container">
             <h2>O1</h2>
             <h3>Landscape Construction</h3>
@@ -35,11 +35,11 @@ const ServicesSection = () => {
           <img
             src={landscapeConstruction6}
             alt="Landscape Construction"
-            className="off-set-img"
+            className="off-set-img number-one"
           />
         </div>
 
-        <div className="service irrigation-systems-service">
+        <div className="service irrigation-systems-service ">
           <div className="number-container">
             <h2>O2</h2>
             <h3>Irrigation Systems</h3>
@@ -53,22 +53,20 @@ const ServicesSection = () => {
           <img src={irrigationSystem1} alt="Irrigation Systems" />
         </div>
 
-        <div className="service">
+        <div className="service ">
           <div className="number-container">
             <h2>O3</h2>
             <h3>Residential & Commercial Maintenance</h3>
           </div>
           <p>
-            Keep your residential and commercial properties looking their best
-            with our comprehensive maintenance services. From lawn care to
-            property upkeep, we offer professional solutions tailored to your
-            needs, ensuring your outdoor spaces always make a lasting
-            impression.
+            Maintain your properties with our maintenance services. From lawn
+            care to property upkeep, we offer professional solutions tailored to
+            your needs, ensuring your outdoor spaces always impress.
           </p>
           <img
             src={maintenance3}
             alt="Residential & Commercial Maintenance"
-            className="off-set-img"
+            className="off-set-img number-3"
           />
         </div>
       </div>
