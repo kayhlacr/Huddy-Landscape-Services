@@ -1,33 +1,19 @@
-.about-container {
-  margin-top: 80px;
-}
-
 .about-us {
+  margin-top: 80px;
   text-align: center;
   max-width: 100%;
 }
 
-h2 {
+.mobile {
   font-family: "Alex Brush", cursive;
   font-size: 40px;
-}
-
-.left-align {
-  text-align: left;
-  width: 100%;
-  float: left;
-  clear: both;
-}
-
-.right-align {
-  text-align: right;
-  width: 100%;
-  float: right;
-  clear: both;
+  display: flex;
+  justify-content: center;
 }
 
 .paragraph-image-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -41,7 +27,60 @@ h2 {
 
 .image-container img {
   height: auto;
-  width: 100%;
-  max-width: 800px;
-  border-radius: 5px;
+  width: 100vw;
+}
+
+.image-container-mobile img {
+  height: auto;
+  width: 100vw;
+}
+
+.image-container-desktop img {
+  display: none;
+}
+
+@media only screen and (min-width: 700px) {
+  .paragraph-image-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .left-align {
+    text-align: left;
+    width: 100%;
+    float: left;
+    clear: both;
+  }
+
+  .right-align {
+    text-align: right;
+    width: 100%;
+    float: right;
+    clear: both;
+  }
+  h2 {
+    font-family: "Alex Brush", cursive;
+    font-size: 40px;
+  }
+
+  .image-container img {
+    width: 100%;
+  }
+
+  .image-container-mobile {
+    display: none;
+  }
+
+  .image-container-desktop img {
+    display: block;
+    height: 100%;
+    /* width: 100%; */
+    max-width: 100%;
+    border-radius: 5px;
+  }
 }

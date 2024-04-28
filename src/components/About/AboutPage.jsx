@@ -8,7 +8,7 @@ function AboutPage() {
   return (
     <div className="about-container">
       <div className="about-us">
-        <h2>About Us</h2>
+        <h2 className="mobile">About Us</h2>
         <p>
           Welcome to Huddy Landscape Service, Inc., a testament to the lush
           beauty of Kauai, nurtured and curated by the hands of a family deeply
@@ -27,7 +27,7 @@ function AboutPage() {
             <img src={Owners2} alt=" Image Right" />
           </div>
           <div className="paragraph">
-            <h2>Our Story</h2>
+            <h2 className="mobile">Our Story</h2>
             <p className="centered">
               Our saga began with Kainoa Huddy, who, before laying the
               cornerstone of our enterprise, dedicated 28 years of his life to
@@ -51,7 +51,10 @@ function AboutPage() {
       <div className="left-align">
         <div className="paragraph-image-container">
           <div className="paragraph">
-            <h2>Our Vision</h2>
+            <div className="image-container-mobile">
+              <img src={LandscapeConstruction10} alt="Image Left" />
+            </div>
+            <h2 className="mobile">Our Vision</h2>
             <p className="centered">
               At Huddy Landscape Service, Inc., we believe in more than just
               transforming spaces; we are about enriching lives. Our vision is
@@ -62,7 +65,7 @@ function AboutPage() {
               passion into every project, big or small.
             </p>
           </div>
-          <div className="image-container">
+          <div className="image-container-desktop">
             <img src={LandscapeConstruction10} alt="Image Left" />
           </div>
         </div>
@@ -74,7 +77,7 @@ function AboutPage() {
             <img src={LandscapeConstructon7} alt="Image Right" />
           </div>
           <div className="paragraph">
-            <h2>Our Commitment</h2>
+            <h2 className="mobile">Our Commitment</h2>
             <p className="centered">
               We are committed to excellence, sustainability, and the aloha
               spirit in all we do. Our approach combines traditional Hawaiian
@@ -93,7 +96,10 @@ function AboutPage() {
       <div className="left-align">
         <div className="paragraph-image-container">
           <div className="paragraph">
-            <h2>Join Our Ohana</h2>
+            <div className="image-container-mobile">
+              <img src={CustomerCommunication} alt=" Image left" />
+            </div>
+            <h2 className="mobile">Join Our Ohana</h2>
             <p className="centered">
               At Huddy Landscape Service, Inc., every client is family. Whether
               you&apos;re looking to create a serene garden oasis, enhance your
@@ -114,7 +120,7 @@ function AboutPage() {
 
             <p className="centered">With aloha, Kainoa and Mele Huddy</p>
           </div>
-          <div className="image-container">
+          <div className="image-container-desktop">
             <img src={CustomerCommunication} alt=" Image left" />
           </div>
         </div>
