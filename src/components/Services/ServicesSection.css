@@ -56,7 +56,7 @@
 
 .service h3 {
   font-family: "Alex Brush", cursive;
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
   color: #115740;
   top: 40%;
@@ -104,6 +104,10 @@
 
   .service {
     width: calc(33.33% - 20px);
+  }
+
+  .service p {
+    margin-top: 15px;
   }
 
   .landscape-construction-service img {
