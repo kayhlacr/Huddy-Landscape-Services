@@ -1,11 +1,24 @@
 .about-container {
   background-color: #9db4a0;
+  display: flex;
+  justify-content: center;
 }
 
 .about-us {
-  margin-top: 80px;
-  text-align: center;
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us p {
+  max-width: 800px;
+}
+
+.paragraph-image-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .mobile {
@@ -15,81 +28,68 @@
   justify-content: center;
 }
 
-.paragraph-image-container {
+.core-values {
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+}
+.core-values img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+.paragraph-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.centered {
-  margin: 10px;
-}
-
-/* .paragraph {
-  margin: 10px;
-} */
-.image-container {
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.image-container img {
-  height: auto;
-  width: 100vw;
-}
-
-.image-container-mobile img {
-  height: auto;
-  width: 100vw;
-}
-
-.image-container-desktop img {
-  display: none;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 700px) {
-  .paragraph-image-container {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+  .about-us {
+    grid-column: 1/-1;
   }
 
-  .mobile {
-    display: block;
+  .core-values {
+    grid-template-columns: 1fr 1fr;
+    max-width: 1400px;
+    grid-template-rows: repeat(5, 700px);
   }
 
-  .left-align {
-    text-align: left;
-    width: 100%;
-    float: left;
-    clear: both;
-  }
-
-  .right-align {
-    text-align: right;
-    width: 100%;
-    float: right;
-    clear: both;
-  }
   h2 {
     font-family: "Alex Brush", cursive;
     font-size: 40px;
     margin: 10px;
   }
 
-  .image-container img {
-    width: 100%;
+  .story-img {
+    order: 1;
   }
 
-  .image-container-mobile {
-    display: none;
+  .story-p {
+    order: 2;
   }
 
-  .image-container-desktop img {
-    display: block;
-    height: 100%;
-    /* width: 100%; */
-    max-width: 100%;
-    border-radius: 5px;
+  .vision-img {
+    order: 4;
+  }
+
+  .vision-p {
+    order: 3;
+  }
+
+  .commitment-img {
+    order: 5;
+  }
+
+  .commitment-p {
+    order: 5;
+  }
+
+  .ohana-img {
+    order: 7;
+  }
+
+  .ohana-p {
+    order: 6;
   }
 }
