@@ -42,6 +42,7 @@
 
 .core-values p {
   margin: 10px;
+  margin-bottom: 15px;
   justify-content: center;
 }
 .paragraph-container {
@@ -50,15 +51,34 @@
   justify-content: center;
 }
 
+.about-img {
+  display: none;
+}
+
 @media only screen and (min-width: 700px) {
-  .about-us {
+  /* .about-us {
     grid-column: 1/-1;
+  } */
+
+  .about-container {
+    background-image: url("../../assets/elephantEar2.jpg");
   }
 
+  .paragraph-container {
+    background-color: #9db4a0;
+  }
   .core-values {
     grid-template-columns: 1fr 1fr;
     max-width: 1400px;
     grid-template-rows: repeat(5, 700px);
+  }
+
+  .about-us {
+    margin-top: 60px;
+  }
+
+  img {
+    object-fit: cover;
   }
 
   h2 {
@@ -67,8 +87,13 @@
     margin: 10px;
   }
 
+  .about-img {
+    display: block;
+    order: 2;
+  }
   .story-img {
     order: 1;
+    margin-top: 60px;
   }
 
   .story-p {
@@ -97,5 +122,11 @@
 
   .ohana-p {
     order: 6;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .about-us {
+    margin-top: 60px;
   }
 }

@@ -3,12 +3,18 @@ import Owners3 from "../../assets/Owners3.png";
 import CustomerCommunication from "../../assets/CustomerCommunication.png";
 import SodFarm1 from "../../assets/SodFarm1.png";
 import LandscapeConstruction10 from "../../assets/LandscapeConstruction10.png";
+import LandscapeConstruction7 from "../../assets/LandscapeConstruction7.png";
 
 function AboutPage() {
   return (
     <div className="about-container">
       <div className="core-values">
-        <div className="about-us">
+        <img
+          src={LandscapeConstruction7}
+          alt=" Image Right"
+          className="about-img"
+        />
+        <div className="paragraph-container about-us">
           <h2 className="mobile">About Us</h2>
           <p>
             Welcome to Huddy Landscape Service, Inc., a testament to the lush
