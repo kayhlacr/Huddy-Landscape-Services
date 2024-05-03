@@ -1,8 +1,8 @@
 import "./AboutPage.css";
-import Owners2 from "../../assets/Owners2.jpg";
-import CustomerCommunication from "../../assets/CustomerCommunication.jpg";
-import LandscapeConstructon7 from "../../assets/LandscapeConstruction7.jpg";
-import LandscapeConstruction10 from "../../assets/LandscapeConstruction10.jpg";
+import Owners3 from "../../assets/Owners3.png";
+import CustomerCommunication from "../../assets/CustomerCommunication.png";
+import SodFarm1 from "../../assets/SodFarm1.png";
+import LandscapeConstruction10 from "../../assets/LandscapeConstruction10.png";
 
 function AboutPage() {
   return (
@@ -21,7 +21,7 @@ function AboutPage() {
             with the people we serve.
           </p>
         </div>
-        <img src={Owners2} alt=" Image Right" className="story-img" />
+        <img src={Owners3} alt=" Image Right" className="story-img" />
         <div className="paragraph-container story-p">
           <h2 className="mobile">Our Story</h2>
           <p>
@@ -58,11 +58,7 @@ function AboutPage() {
           </p>
         </div>
 
-        <img
-          src={LandscapeConstructon7}
-          alt="Image Right"
-          className="commitment-img"
-        />
+        <img src={SodFarm1} alt="Image Right" className="commitment-img" />
         <div className="paragraph-container commitment-p">
           <h2 className="mobile">Our Commitment</h2>
           <p>
