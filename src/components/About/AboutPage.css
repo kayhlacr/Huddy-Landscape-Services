@@ -10,7 +10,7 @@
   flex-direction: row;
 }
 
-h2 {
+.about-h2 {
   font-family: "Alex Brush", cursive;
   font-size: 55px;
   margin-top: 5px;

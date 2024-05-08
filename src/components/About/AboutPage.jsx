@@ -15,7 +15,7 @@ function AboutPage() {
         className="about-img"
       />
       <div className="paragraph-container about-us">
-        <h2>About Us</h2>
+        <h2 className="about-h2">About Us</h2>
         <p>
           Welcome to Huddy Landscape Service, Inc., a testament to the lush
           beauty of Kauai, nurtured and curated by the hands of a family deeply
@@ -29,7 +29,7 @@ function AboutPage() {
       </div>
       <img src={Owners3} alt=" Image Right" className="story-img" />
       <div className="paragraph-container story-p">
-        <h2>Our Story</h2>
+        <h2 className="about-h2">Our Story</h2>
         <p>
           Our saga began with Kainoa Huddy, who, before laying the cornerstone
           of our enterprise, dedicated 28 years of his life to mastering the art
@@ -52,7 +52,7 @@ function AboutPage() {
         alt="Image Left"
       />
       <div className="paragraph-container vision-p">
-        <h2>Our Vision</h2>
+        <h2 className="about-h2">Our Vision</h2>
         <p>
           At Huddy Landscape Service, Inc., we believe in more than just
           transforming spaces; we are about enriching lives. Our vision is to
@@ -66,7 +66,7 @@ function AboutPage() {
 
       <img src={SodFarm1} alt="Image Right" className="commitment-img" />
       <div className="paragraph-container commitment-p">
-        <h2>Our Commitment</h2>
+        <h2 className="about-h2">Our Commitment</h2>
         <p>
           We are committed to excellence, sustainability, and the aloha spirit
           in all we do. Our approach combines traditional Hawaiian landscaping
@@ -85,7 +85,7 @@ function AboutPage() {
         className="ohana-img"
       />
       <div className="paragraph-container ohana-p">
-        <h2>Join Our Ohana</h2>
+        <h2 className="about-h2">Join Our Ohana</h2>
         <div className="ohana-para">
           <p>
             At Huddy Landscape Service, Inc., every client is family. Whether
