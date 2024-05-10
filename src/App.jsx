@@ -4,6 +4,7 @@ import HeroSection from "./components/Hero/HeroSection";
 import ServicesSection from "./components/Services/ServicesSection";
 import ContactPage from "./components/Contact/ContactPage";
 import AboutPage from "./components/About/AboutPage";
+import PortfolioPage from "./components/Portfolio/PortfolioPage";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
-          {/* <Route path="/portfolio" element={<PortfolioPage />} /> */}
+          <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
