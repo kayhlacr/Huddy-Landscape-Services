@@ -64,17 +64,6 @@
         "../src/assets/HLS_Mori Garden/IMG_2900.JPG"
       ],
       "details": "Witness the remarkable transformation of Mori Garden, once a neglected cactus garden, into a captivating landscape that now mesmerizes visitors. Huddy Landscape took on the challenge of revitalizing this commercial property, beginning with a thorough clean-up to create inviting pathways for guests to explore and appreciate the garden's beauty. We then expertly installed gravel to enhance the garden's aesthetics and functionality. Today, we continue to provide maintenance services, ensuring that Mori Garden remains a delightful oasis for all to enjoy."
-    },
-    {
-      "id": 3,
-      "name": "Miscellaneous",
-      "main_img": "../src/assets/HLS_Misc/IMG_6989.JPG",
-      "gallery": [
-        "../src/assets/HLS_Misc/IMG_9425 2.JPG",
-        "../src/assets/HLS_Misc/IMG_2851.JPG",
-        "../src/assets/HLS_Misc/IMG_2853.JPG",
-        "../src/assets/HLS_Misc/IMG_7090 2.JPG"
-      ]
     }
   ]
 }

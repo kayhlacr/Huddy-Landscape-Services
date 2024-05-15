@@ -1,0 +1,39 @@
+{
+  "misc": [
+    {
+      "src": "../src/assets/HLS_Misc/IMG_9425 2.JPG",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "src": "../src/assets/HLS_Misc/IMG_2851.JPG",
+      "width": "800",
+      "height": "600"
+    },
+    {
+      "src": "../src/assets/HLS_Misc/IMG_2853.JPG",
+      "width": "800",
+      "height": "800"
+    },
+    {
+      "src": "../src/assets/HLS_Misc/IMG_7090 2.JPG",
+      "width": "800",
+      "height": "1200"
+    },
+    {
+      "src": "../src/assets/HLS_Misc/IMG_6989.JPG",
+      "width": "800",
+      "height": "800"
+    },
+    {
+      "src": "../src/assets/HLS_Misc/IMG_1495.JPG",
+      "width": "800",
+      "height": "800"
+    },
+    {
+      "src": "../src/assets/HLS_Misc/IMG_1863.JPG",
+      "width": "800",
+      "height": "600"
+    }
+  ]
+}

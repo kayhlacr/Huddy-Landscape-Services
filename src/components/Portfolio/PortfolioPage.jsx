@@ -1,14 +1,30 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import jobsData from "./data.json";
+import misc from "./misc.json";
+import PhotoAlbum from "react-photo-album";
 import PlusIcon from "../../assets/PlusIcon.png";
 import "./PortfolioPage.css";
 
 export default function PortfolioPage() {
   const [expandedProjectId, setExpandedProjectId] = useState(null);
+  const [width, setWidth] = useState(window.innerWidth);
 
   const toggleExpand = (projectId) => {
     setExpandedProjectId(projectId === expandedProjectId ? null : projectId);
   };
+  useEffect(() => {
+    function handleResize() {
+      setWidth(window.innerWidth);
+    }
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  console.log(width);
+  const columns = width < 600 ? 2 : width < 1200 ? 3 : 4;
 
   return (
     <div className="page-container">
@@ -58,6 +74,17 @@ export default function PortfolioPage() {
           )}
         </div>
       ))}
+      <div className="header">
+        <h2 className="job-name">
+          <div>Miscellanious</div>
+        </h2>
+      </div>
+      <PhotoAlbum
+        layout="masonry"
+        columns={columns}
+        spacing={5}
+        photos={misc.misc}
+      />
     </div>
   );
 }

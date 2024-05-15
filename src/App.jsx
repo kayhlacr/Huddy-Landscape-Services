@@ -6,6 +6,7 @@ import ContactPage from "./components/Contact/ContactPage";
 import AboutPage from "./components/About/AboutPage";
 import PortfolioPage from "./components/Portfolio/PortfolioPage";
 import Footer from "./components/Footer/Footer";
+import "normalize.css";
 import "./App.css";
 
 function App() {
