@@ -2,7 +2,7 @@
   "jobs": [
     {
       "id": 2,
-      "name": "Commercial\nMaintanence",
+      "name": "Commercial & Residential \n Maintanence",
       "main_img": "../src/assets/Maintanence/Barn House (2678 Uluwehi st) Kukui’ula 36.JPG",
       "gallery": [
         "../src/assets/Maintanence/Barn House (2678 Uluwehi st) Kukui’ula 38.JPG",
@@ -35,14 +35,18 @@
         "../src/assets/Maintanence/Judi (5050 Lau Nahele) 2.JPG",
         "../src/assets/Maintanence/Judi (5050 Lau Nahele).JPG",
         "../src/assets/Maintanence/Judi (5050 Lau Nahele) 3.JPG",
+        "../src/assets/Maintanence/IMG_6009.JPG",
+        "../src/assets/Maintanence/IMG_6011.JPG",
+        "../src/assets/Maintanence/IMG_6010.JPG",
+        "../src/assets/Maintanence/IMG_6012.JPG",
+        "../src/assets/Maintanence/IMG_6214.JPG",
+        "../src/assets/Maintanence/IMG_6231.JPG",
         "../src/assets/Maintanence/kekaha VILLA no pool 6.JPG",
         "../src/assets/Maintanence/kekaha VILLA no pool 5.JPG",
         "../src/assets/Maintanence/kekaha VILLA no pool 4.JPG",
         "../src/assets/Maintanence/kekaha VILLA no pool 3.JPG",
         "../src/assets/Maintanence/kekaha VILLA no pool.JPG",
-        "../src/assets/Maintanence/kekaha VILLA no pool 2.JPG",
-        "../src/assets/Maintanence/IMG_2900.JPG",
-        "../src/assets/Maintanence/IMG_9762.JPG"
+        "../src/assets/Maintanence/kekaha VILLA no pool 2.JPG"
       ],
       "details": "Explore our commitment to enhancing the outdoor aesthetics and functionality of commercial properties. Our skilled team diligently maintains landscapes, ensuring they flourish year-round. From manicured lawns to vibrant seasonal plantings, each project reflects our dedication to quality and client satisfaction. Browse through our portfolio to witness the transformational impact of our commercial maintenance services."
     },
@@ -92,7 +96,17 @@
         "../src/assets/Landscaping/IMG_4730 2.JPG",
         "../src/assets/Landscaping/IMG_4731 2.JPG",
         "../src/assets/Landscaping/IMG_4732 2.JPG",
-        "../src/assets/Landscaping/IMG_4734 2.JPG"
+        "../src/assets/Landscaping/IMG_4734 2.JPG",
+        "../src/assets/Landscaping/RockHouse4.JPG",
+        "../src/assets/Landscaping/RockHouse.JPG",
+        "../src/assets/Landscaping/RockHouse3.JPG",
+        "../src/assets/Landscaping/RockHouse2.JPG",
+        "../src/assets/Landscaping/Palms1.JPG",
+        "../src/assets/Landscaping/Palms2.JPG",
+
+        "../src/assets/Landscaping/Grass.JPG",
+        "../src/assets/Landscaping/Grass1.JPG",
+        "../src/assets/Landscaping/Grass2.JPG"
       ],
       "details": "Landscaping projects: Our team at Huddy Landscape orchestrates complete transformations, showcasing our expertise and dedication to creating stunning outdoor spaces. We meticulously plant a variety of plants, trees, and grass to breathe new life into each area. Additionally, we install comprehensive irrigation systems to maintain lush and vibrant landscapes. This exemplifies our commitment to excellence and our passion for crafting beautiful, sustainable landscapes that endure the test of time."
     }
