@@ -46,7 +46,6 @@ export default function PortfolioPage() {
             <div>
               <h3 className="more-details">More Details:</h3>
               <p className="details-p">{job.details}</p>
-
               <div className="gallery-container">
                 {job.gallery.map((image, index) => (
                   <img
