@@ -60,4 +60,15 @@
     max-width: 100%;
     padding: 20px;
   }
+
+  .job-name {
+    font-size: 50px;
+  }
+
+  .more-details {
+    font-size: 40px;
+  }
+  .details-p {
+    font-size: 25px;
+  }
 }
