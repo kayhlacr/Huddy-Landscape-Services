@@ -24,6 +24,7 @@
   display: flex;
   align-items: center;
 }
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -39,6 +40,11 @@
 .nav-links a {
   text-decoration: none;
   color: #fff;
+}
+
+.nav-links a.active {
+  font-weight: bold;
+  color: #f4a261;
 }
 
 .contact-btn {

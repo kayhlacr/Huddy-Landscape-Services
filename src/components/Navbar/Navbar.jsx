@@ -1,8 +1,10 @@
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/TransparentLogoWhite.png";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const location = useLocation();
+
   return (
     <nav className="navbar">
       <div className="logo">
@@ -11,13 +13,25 @@ const Navbar = () => {
       <div className="nav-links-container">
         <ul className="nav-links">
           <li>
-            <a href="/">Home</a>
+            <Link to="/" className={location.pathname === "/" ? "active" : ""}>
+              Home
+            </Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link
+              to="/about"
+              className={location.pathname === "/about" ? "active" : ""}
+            >
+              About
+            </Link>
           </li>
           <li>
-            <a href="/portfolio">Portfolio</a>
+            <Link
+              to="/portfolio"
+              className={location.pathname === "/portfolio" ? "active" : ""}
+            >
+              Portfolio
+            </Link>
           </li>
         </ul>
         <Link to="/contact">
