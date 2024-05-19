@@ -2,7 +2,7 @@ import "./ServicesSection.css";
 import irrigationSystem1 from "../../assets/IrrigationSystem1.jpeg";
 import landscapeConstruction6 from "../../assets/LandscapeConstruction6.jpg";
 import maintenance3 from "../../assets/Maintenance3.jpg";
-import LandscapeConstruction from "../../assets/LandscapeContruction.png";
+import RockHouse5 from "../../assets/Landscaping/RockHouse5-min.jpg";
 
 const ServicesSection = () => {
   return (
@@ -71,7 +71,7 @@ const ServicesSection = () => {
         </div>
       </div>
       <div className=" landscape-construction-service">
-        <img src={LandscapeConstruction} alt="Landscape Construction" />
+        <img src={RockHouse5} alt="Landscape Construction" />
       </div>
     </section>
   );
