@@ -6,3 +6,22 @@
   display: flex;
   flex-direction: column;
 }
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 65px;
+  right: 20px;
+  background-color: #115740;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000;
+  transition: opacity 0.3s;
+}
+
+.scroll-to-top img {
+  width: 30px;
+  height: 30px;
+}
