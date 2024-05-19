@@ -1,22 +1,32 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import jobsData from "./data.json";
-// import misc from "./misc.json";
-// import PhotoAlbum from "react-photo-album";
 import PlusIcon from "../../assets/PlusIcon.png";
 import MinusIcon from "../../assets/MinusIcon.png";
 import "./PortfolioPage.css";
 
 export default function PortfolioPage() {
   const [expandedProjectId, setExpandedProjectId] = useState(null);
+  const jobRefs = useRef([]);
 
-  const toggleExpand = (projectId) => {
-    setExpandedProjectId(projectId === expandedProjectId ? null : projectId);
+  const toggleExpand = (projectId, index) => {
+    if (projectId === expandedProjectId) {
+      setExpandedProjectId(null);
+    } else {
+      setExpandedProjectId(projectId);
+      setTimeout(() => {
+        jobRefs.current[index].scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+        window.scrollBy(0, -60);
+      }, 0);
+    }
   };
 
   return (
     <div className="page-container">
-      {jobsData.jobs.map((job) => (
-        <div key={job.id}>
+      {jobsData.jobs.map((job, index) => (
+        <div key={job.id} ref={(el) => (jobRefs.current[index] = el)}>
           <div className="header">
             <h2 className="job-name">
               {job.id === 2 ? (
@@ -36,7 +46,7 @@ export default function PortfolioPage() {
               className="plus-icon"
               src={expandedProjectId === job.id ? MinusIcon : PlusIcon}
               alt="Expand"
-              onClick={() => toggleExpand(job.id)}
+              onClick={() => toggleExpand(job.id, index)}
             />
           </div>
           {expandedProjectId !== job.id && (
