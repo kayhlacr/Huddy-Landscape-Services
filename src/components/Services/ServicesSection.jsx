@@ -2,7 +2,7 @@ import "./ServicesSection.css";
 import irrigationSystem1 from "../../assets/IrrigationSystem1.jpeg";
 import landscapeConstruction6 from "../../assets/LandscapeConstruction6.jpg";
 import maintenance3 from "../../assets/Maintenance3.jpg";
-import RockHouse5 from "../../assets/Landscaping/RockHouse5-min.jpg";
+import RockHouse5 from "/Landscaping/RockHouse5-min.jpg";
 
 const ServicesSection = () => {
   return (
