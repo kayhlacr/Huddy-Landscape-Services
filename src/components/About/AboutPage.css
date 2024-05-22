@@ -75,6 +75,12 @@
     font-size: 24px;
   }
 
+  .paragraph-container {
+    border: 5px black solid;
+    position: relative;
+    overflow-y: hidden;
+  }
+
   img {
     object-fit: cover;
   }

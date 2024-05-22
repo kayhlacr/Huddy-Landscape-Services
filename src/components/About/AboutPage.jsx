@@ -4,11 +4,13 @@ import CustomerCommunication from "../../assets/CustomerCommunication.png";
 import SodFarm1 from "../../assets/SodFarm1.png";
 import LandscapeConstruction10 from "../../assets/LandscapeConstruction10.png";
 import LandscapeConstruction7 from "../../assets/LandscapeConstruction7.png";
+import Paragraph from "./Paragraph";
 
 function AboutPage() {
   return (
     // <div className="about-container">
     <div className="core-values">
+      <Paragraph></Paragraph>
       <img
         src={LandscapeConstruction7}
         alt=" Image Right"
@@ -20,9 +22,9 @@ function AboutPage() {
           Welcome to Huddy Landscape Service, Inc., a testament to the lush
           beauty of Kauai, nurtured and curated by the hands of a family deeply
           rooted in love for the land and our community. Founded by Kainoa and
-          Mele Huddy, our company is a Hawaiian-owned, woman-led beacon of
-          excellence in landscaping and commercial maintenance. Our journey in
-          this industry is not just about enhancing spaces but about cultivating
+          Mele Huddy, our company is a Hawaiian-owned beacon of excellence in
+          landscaping and commercial maintenance. Our journey in this industry
+          is not just about enhancing spaces but about cultivating
           connections—with nature, with our heritage, and with the people we
           serve.
         </p>
