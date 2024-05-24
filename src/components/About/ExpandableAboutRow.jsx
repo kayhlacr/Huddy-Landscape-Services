@@ -1,5 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import "./ExpandableAboutRow.css";
+import PlusIcon from "../../assets/PlusIcon.png";
+import MinusIcon from "../../assets/MinusIcon.png";
 
 export default function ExpandableAboutRow({
   paragraphText,
@@ -53,13 +55,18 @@ export default function ExpandableAboutRow({
           isExpanded ? "expanded" : ""
         }`}
       >
-        <h2 className="about-h2">Our Story</h2>
+        <div className="title-button-container">
+          <h2 className="about-h2">Our Story</h2>
+          {isParagraphOverflowing && (
+            <button className="btn-expand" onClick={handleExpandClick}>
+              <img
+                src={isExpanded ? MinusIcon : PlusIcon}
+                alt="Expand/Collapse"
+              />
+            </button>
+          )}
+        </div>
         <p>{paragraphText}</p>
-        {isParagraphOverflowing && (
-          <button className="btn-expand" onClick={handleExpandClick}>
-            {isExpanded ? "COLLAPSE" : "EXPAND"}
-          </button>
-        )}
       </div>
       <img src={img} alt="" className={`${imgClassName} ${visibilityStyle}`} />
     </>

@@ -9,6 +9,10 @@
   transition: all 0.3s ease;
 } */
 
+.title-button-container {
+  display: flex;
+  align-items: center;
+}
 .paragraph-container.expanded {
   grid-column: span 2;
 }
@@ -18,12 +22,19 @@
 }
 
 .btn-expand {
-  position: absolute;
   bottom: 10px;
   left: 0;
   right: 0;
   font-size: 20px;
   padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-expand img {
+  width: 40px;
+  height: 40px;
 }
 
 img {
