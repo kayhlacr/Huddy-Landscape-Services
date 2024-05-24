@@ -79,6 +79,7 @@
     border: 5px black solid;
     position: relative;
     overflow-y: hidden;
+    max-height: 700px;
   }
 
   img {
@@ -120,5 +121,13 @@
 
   .ohana-p {
     order: 6;
+  }
+
+  .test-i {
+    order: 8;
+  }
+
+  .test-p {
+    order: 9;
   }
 }

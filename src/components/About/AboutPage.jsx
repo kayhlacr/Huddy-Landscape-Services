@@ -4,13 +4,15 @@ import CustomerCommunication from "../../assets/CustomerCommunication.png";
 import SodFarm1 from "../../assets/SodFarm1.png";
 import LandscapeConstruction10 from "../../assets/LandscapeConstruction10.png";
 import LandscapeConstruction7 from "../../assets/LandscapeConstruction7.png";
-import Paragraph from "./Paragraph";
+import { useRef } from "react";
+import ExpandableAboutRow from "./ExpandableAboutRow";
 
 function AboutPage() {
+  const OwnersImg = useRef(null);
+
   return (
     // <div className="about-container">
     <div className="core-values">
-      <Paragraph></Paragraph>
       <img
         src={LandscapeConstruction7}
         alt=" Image Right"
@@ -108,6 +110,25 @@ function AboutPage() {
           <p>With aloha, Kainoa and Mele Huddy</p>
         </div>
       </div>
+
+      <ExpandableAboutRow
+        paragraphClassName="test-p"
+        img={Owners3}
+        imgClassName="test-i"
+        paragraphText={`Our saga began with Kainoa Huddy, who, before laying the cornerstone
+        of our enterprise, dedicated 28 years of his life to mastering the art
+        of landscaping under the guidance of Kauai&apos;s most revered
+        landscapers, Abby and Frank Santos of No Ka Oi Plants. His tenure with
+        them was more than a job; it was a lifelong apprenticeship that honed
+        his skills, ethic, and passion for the craft. When Abby and Frank
+        decided to retire, it wasn&apos;t just the end of an era but the dawn
+        of a new beginning for us. Motivated by a shared dream and our
+        combined strengths, Kainoa and I, Mele Huddy, embarked on this
+        entrepreneurial journey. With his unparalleled expertise and my drive
+        to build a legacy of greatness, Huddy Landscape Service, Inc. was
+        born—a family business that prides itself on delivering exceptional
+        landscape solutions with a touch of Hawaiian spirit. `}
+      />
     </div>
     // </div>
   );
