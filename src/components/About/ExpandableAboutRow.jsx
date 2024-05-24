@@ -4,6 +4,7 @@ import PlusIcon from "../../assets/PlusIcon.png";
 import MinusIcon from "../../assets/MinusIcon.png";
 
 export default function ExpandableAboutRow({
+  headingText = "",
   paragraphText,
   paragraphClassName = "",
   img,
@@ -56,7 +57,7 @@ export default function ExpandableAboutRow({
         }`}
       >
         <div className="title-button-container">
-          <h2 className="about-h2">Our Story</h2>
+          <h2 className="about-h2">{headingText}</h2>
           {isParagraphOverflowing && (
             <button className="btn-expand" onClick={handleExpandClick}>
               <img

@@ -4,11 +4,11 @@ import CustomerCommunication from "../../assets/CustomerCommunication.png";
 import SodFarm1 from "../../assets/SodFarm1.png";
 import LandscapeConstruction10 from "../../assets/LandscapeConstruction10.png";
 import LandscapeConstruction7 from "../../assets/LandscapeConstruction7.png";
-import { useRef } from "react";
+// import { useRef } from "react";
 import ExpandableAboutRow from "./ExpandableAboutRow";
 
 function AboutPage() {
-  const OwnersImg = useRef(null);
+  // const OwnersImg = useRef(null);
 
   return (
     // <div className="about-container">
@@ -112,6 +112,7 @@ function AboutPage() {
       </div>
 
       <ExpandableAboutRow
+        headingText="Our Story"
         paragraphClassName="test-p"
         img={Owners3}
         imgClassName="test-i"
