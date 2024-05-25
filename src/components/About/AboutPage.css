@@ -45,8 +45,8 @@
   padding: 30px;
 }
 
-.about-img {
-  display: none;
+.ohana-para {
+  white-space: pre-line;
 }
 
 @media only screen and (min-width: 700px) {
@@ -84,50 +84,45 @@
 
   img {
     object-fit: cover;
+    max-width: 700px;
+  }
+
+  .about-us {
+    order: 1;
   }
 
   .about-img {
-    display: block;
     order: 2;
-  }
-  .story-img {
-    order: 1;
-    /* margin-top: 60px; */
   }
 
   .story-p {
-    order: 2;
-  }
-
-  .vision-img {
     order: 4;
   }
 
-  .vision-p {
+  .story-img {
     order: 3;
   }
 
-  .commitment-img {
+  .vision-p {
+    order: 4;
+  }
+
+  .vision-img {
     order: 5;
   }
 
   .commitment-p {
-    order: 5;
-  }
-
-  .ohana-img {
     order: 7;
   }
 
-  .ohana-p {
+  .commitment-img {
     order: 6;
   }
 
-  .test-i {
-    order: 8;
-  }
-
-  .test-p {
+  .ohana-para {
     order: 9;
+  }
+  .ohana-p {
+    order: 8;
   }
 }
