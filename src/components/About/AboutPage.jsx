@@ -17,7 +17,7 @@ function AboutPage() {
         headingText="About Us"
         paragraphClassName="about-us"
         img={Owners3}
-        imgClassName="about-img"
+        imgClassName="about-img "
         paragraphText={`Welcome to Huddy Landscape Service, Inc., a testament to the lush
         beauty of Kauai, nurtured and curated by the hands of a family deeply
         rooted in love for the land and our community. Founded by Kainoa and

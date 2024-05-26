@@ -81,17 +81,14 @@
     max-height: 700px;
   }
 
-  img {
-    object-fit: cover;
-    max-width: 700px;
-  }
-
   .about-us {
     order: 1;
   }
 
   .about-img {
     order: 2;
+    object-fit: cover;
+    max-width: 700px;
   }
 
   .story-p {
@@ -100,6 +97,8 @@
 
   .story-img {
     order: 3;
+    object-fit: cover;
+    max-width: 700px;
   }
 
   .vision-p {
@@ -108,6 +107,8 @@
 
   .vision-img {
     order: 5;
+    object-fit: cover;
+    max-width: 700px;
   }
 
   .commitment-p {
@@ -116,10 +117,14 @@
 
   .commitment-img {
     order: 6;
+    object-fit: cover;
+    max-width: 700px;
   }
 
   .ohana-para {
     order: 9;
+    object-fit: cover;
+    max-width: 700px;
   }
   .ohana-p {
     order: 8;
