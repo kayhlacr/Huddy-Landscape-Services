@@ -76,7 +76,6 @@
   }
 
   .paragraph-container {
-    border: 5px black solid;
     position: relative;
     overflow-y: hidden;
     max-height: 700px;

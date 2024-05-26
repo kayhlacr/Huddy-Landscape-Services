@@ -9,12 +9,22 @@
   transition: all 0.3s ease;
 } */
 
+@keyframes slide-in {
+  from {
+    transform: translateX(-75%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
 .title-button-container {
   display: flex;
   align-items: center;
 }
 .paragraph-container.expanded {
   grid-column: span 2;
+  animation: slide-in 1000ms forwards;
 }
 
 .paragraph-container p {
