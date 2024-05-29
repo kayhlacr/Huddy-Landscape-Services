@@ -1,6 +1,7 @@
 import "./ServicesSection.css";
 import irrigationSystem1 from "../../assets/IrrigationSystem1.jpeg";
-import landscapeConstruction6 from "../../assets/LandscapeConstruction6.jpg";
+// import landscapeConstruction6 from "../../assets/LandscapeConstruction6.jpg";
+import RockHouse from "/Landscaping/RockHouse-min.jpg";
 import maintenance3 from "../../assets/Maintenance3.jpg";
 import RockHouse5 from "/Landscaping/RockHouse5-min.jpg";
 
@@ -33,7 +34,7 @@ const ServicesSection = () => {
             appeal.
           </p>
           <img
-            src={landscapeConstruction6}
+            src={RockHouse}
             alt="Landscape Construction"
             className="off-set-img number-one"
           />
