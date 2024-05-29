@@ -58,10 +58,10 @@
     background-image: url("../../assets/elephantEar2.jpg");
   } */
 
-  .core-values {
+  /* .core-values {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 700px);
-  }
+  } */
 
   h2 {
     font-size: 80px;
@@ -81,52 +81,52 @@
     max-height: 700px;
   }
 
-  .about-us {
-    order: 1;
-  }
+  @media (min-width: 1150px) {
+    .core-values {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(5, 700px);
+    }
+    .about-us {
+      order: 1;
+    }
+    .about-img {
+      order: 2;
+      object-fit: cover;
+    }
 
-  .about-img {
-    order: 2;
-    object-fit: cover;
-    max-width: 700px;
-  }
+    .story-p {
+      order: 4;
+    }
 
-  .story-p {
-    order: 4;
-  }
+    .story-img {
+      order: 3;
+      object-fit: cover;
+    }
 
-  .story-img {
-    order: 3;
-    object-fit: cover;
-    max-width: 700px;
-  }
+    .vision-p {
+      order: 4;
+    }
 
-  .vision-p {
-    order: 4;
-  }
+    .vision-img {
+      order: 5;
+      object-fit: cover;
+    }
 
-  .vision-img {
-    order: 5;
-    object-fit: cover;
-    max-width: 700px;
-  }
+    .commitment-p {
+      order: 7;
+    }
 
-  .commitment-p {
-    order: 7;
-  }
+    .commitment-img {
+      order: 6;
+      object-fit: cover;
+    }
 
-  .commitment-img {
-    order: 6;
-    object-fit: cover;
-    max-width: 700px;
-  }
-
-  .ohana-para {
-    order: 9;
-    object-fit: cover;
-    max-width: 700px;
-  }
-  .ohana-p {
-    order: 8;
+    .ohana-para {
+      order: 9;
+      object-fit: cover;
+    }
+    .ohana-p {
+      order: 8;
+    }
   }
 }
