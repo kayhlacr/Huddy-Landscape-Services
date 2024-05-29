@@ -5,7 +5,8 @@
 
 .hero-section img {
   width: 100%;
-  height: auto;
+  height: 300px;
+  margin-top: 60px;
 }
 
 .hero-section::before {
@@ -32,9 +33,32 @@
   text-align: left;
 }
 
+.hero-contact-btn {
+  font-family: "Alex Brush", cursive;
+  padding: 10px 20px;
+  background-color: #f4a261;
+  color: #f4e4c3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+}
+
+.hero-contact-link {
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 700px) {
   .hero-content h1 {
     font-size: 55px;
+  }
+
+  .hero-contact-btn {
+    font-size: 30px;
+  }
+  .hero-section img {
+    height: auto;
   }
 }
 
