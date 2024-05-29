@@ -5,7 +5,6 @@
 .project-image {
   max-width: 100%;
   height: auto;
-  border-radius: 5px;
 }
 
 .header {
@@ -58,6 +57,9 @@
 @media only screen and (min-width: 700px) {
   .project-image {
     max-width: 100%;
+    border-radius: 5px;
+  }
+  .main-img {
     padding: 100px;
   }
 

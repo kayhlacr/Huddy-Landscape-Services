@@ -49,9 +49,17 @@ export default function PortfolioPage() {
               onClick={() => toggleExpand(job.id, index)}
             />
           </div>
+
           {expandedProjectId !== job.id && (
-            <img className="project-image" src={job.main_img} alt={job.name} />
+            <div className="main-img">
+              <img
+                className="project-image"
+                src={job.main_img}
+                alt={job.name}
+              />{" "}
+            </div>
           )}
+
           {expandedProjectId === job.id && (
             <div>
               <h3 className="more-details">More Details:</h3>
