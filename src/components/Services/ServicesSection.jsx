@@ -10,6 +10,7 @@ const ServicesSection = () => {
     <section className="services-section">
       <div className="container">
         <div className="service-container">
+          <h4>Welcome to Huddy Landscape Service, Inc.</h4>
           <p>
             Welcome to Huddy Landscape Service, Inc., a testament to the lush
             beauty of Kauai, nurtured and curated by the hands of a family
