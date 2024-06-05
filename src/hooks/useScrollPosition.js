@@ -3,12 +3,13 @@ import { useState, useEffect } from "react";
 const useScrollPosition = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isScrolling, setIsScrolling] = useState(false);
+  const marginTop = 60;
 
   useEffect(() => {
     let timeoutId;
 
     const handleScroll = () => {
-      setScrollPosition(window.pageYOffset);
+      setScrollPosition(window.scrollY - marginTop);
       setIsScrolling(true);
 
       if (timeoutId) {
@@ -27,7 +28,7 @@ const useScrollPosition = () => {
         clearTimeout(timeoutId);
       }
     };
-  }, []);
+  }, [marginTop]);
 
   return { scrollPosition, isScrolling };
 };
