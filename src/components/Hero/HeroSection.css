@@ -58,7 +58,7 @@
     font-size: 30px;
   }
   .hero-section img {
-    height: 100vh;
+    height: 100dvh;
   }
 }
 
