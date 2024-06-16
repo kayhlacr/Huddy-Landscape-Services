@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p className="company-name">Huddy Landscape Services, LLC</p>
+        <p className="company-name">Huddy Landscape Services, Inc</p>
         <div className="footer-contact">
           <a
             href="mailto:huddylandscapeservice@gmail.com"
