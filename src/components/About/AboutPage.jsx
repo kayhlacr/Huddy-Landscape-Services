@@ -1,5 +1,5 @@
 import "./AboutPage.css";
-import Owners3 from "../../assets/Owners3.png";
+import Owners4 from "../../assets/Owners4.jpg";
 import CustomerCommunication from "../../assets/CustomerCommunication.png";
 import SodFarm1 from "../../assets/SodFarm1.png";
 import LandscapeConstruction10 from "../../assets/LandscapeConstruction10.png";
@@ -17,7 +17,7 @@ function AboutPage() {
       <ExpandableAboutRow
         headingText="About Us"
         paragraphClassName="about-us"
-        img={Owners3}
+        img={Owners4}
         imgClassName="about-img "
         paragraphText={`Welcome to Huddy Landscape Service, Inc., a testament to the lush
         beauty of Kauai, nurtured and curated by the hands of a family deeply
