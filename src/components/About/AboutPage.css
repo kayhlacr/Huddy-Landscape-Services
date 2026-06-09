@@ -84,7 +84,7 @@
   @media (min-width: 1150px) {
     .core-values {
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: repeat(5, 700px);
+      grid-template-rows: repeat(6, 700px);
     }
     .about-us {
       order: 1;
@@ -94,39 +94,44 @@
       object-fit: cover;
     }
 
-    .story-p {
-      order: 4;
-    }
-
     .story-img {
       order: 3;
       object-fit: cover;
     }
-
-    .vision-p {
+    .story-p {
       order: 4;
     }
 
-    .vision-img {
-      order: 5;
-      object-fit: cover;
-    }
-
     .commitment-p {
-      order: 7;
+      order: 5;
     }
-
     .commitment-img {
       order: 6;
       object-fit: cover;
     }
 
-    .ohana-para {
+    .standards-img {
+      order: 7;
+      object-fit: cover;
+    }
+    .standards-p {
+      order: 8;
+    }
+
+    .vision-p {
       order: 9;
+    }
+    .vision-img {
+      order: 10;
+      object-fit: cover;
+    }
+
+    .ohana-para {
+      order: 11;
       object-fit: cover;
     }
     .ohana-p {
-      order: 8;
+      order: 12;
     }
   }
 }

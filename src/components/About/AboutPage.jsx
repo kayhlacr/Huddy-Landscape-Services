@@ -4,6 +4,7 @@ import CustomerCommunication from "../../assets/CustomerCommunication.png";
 import SodFarm1 from "../../assets/SodFarm1.png";
 import LandscapeConstruction10 from "../../assets/LandscapeConstruction10.png";
 import LandscapeConstruction7 from "../../assets/LandscapeConstruction7.png";
+import StandardsImg from "../../assets/HLS_Misc/StandardsPhoto.jpg";
 // import { useRef } from "react";
 import ExpandableAboutRow from "./ExpandableAboutRow";
 
@@ -47,6 +48,23 @@ function AboutPage() {
         born—a family business that prides itself on delivering exceptional
         landscape solutions with a touch of Hawaiian spirit. `}
       />
+
+      <ExpandableAboutRow
+        headingText="What Makes Us Different"
+        paragraphClassName="commitment-p"
+        img={SodFarm1}
+        imgClassName="commitment-img"
+        paragraphText={`Three principles set Huddy Landscape Services apart. First, we are knowledgeable. With decades of hands-on landscaping experience, we bring practical expertise and proven solutions to every property we serve. Second, we take pride in our work. We believe the details matter, and we strive to leave every project and property better than we found it. Third, we do what we say and go beyond. We follow through on our commitments, communicate clearly, and look for opportunities to exceed expectations rather than simply meet them. `}
+      />
+
+      <ExpandableAboutRow
+        headingText="Our Standards"
+        paragraphClassName="standards-p"
+        img={StandardsImg}
+        imgClassName="standards-img"
+        paragraphText={`At Huddy Landscape Services, our standards guide how we work, communicate, and serve. We operate under our PRIDE values: Pride in Craft, Respect the ʻOhana, Improve Always, Do What We Say, and Embrace Accountability. In the field, we hold ourselves to high standards of professionalism, teamwork, safety, attention to detail, and caring for every property as if it were our own. These principles help us consistently deliver quality work and dependable service for our clients.`}
+      />
+
       <ExpandableAboutRow
         headingText="Our Vision"
         paragraphClassName="vision-p"
@@ -59,21 +77,6 @@ function AboutPage() {
         and woman-owned enterprise, we carry forward the legacy of those who
         nurtured us, channeling our skills and passion into every project, big
         or small.`}
-      />
-      <ExpandableAboutRow
-        headingText="Our Commitment"
-        paragraphClassName="commitment-p"
-        img={SodFarm1}
-        imgClassName="commitment-img"
-        paragraphText={`We are committed to excellence, sustainability, and the aloha spirit
-        in all we do. Our approach combines traditional Hawaiian landscaping
-        techniques with modern, eco-friendly practices, ensuring that our work
-        not only enhances the aesthetic appeal of your space but also
-        contributes positively to our environment. In every project we
-        undertake, we strive to weave the essence of our beautiful island,
-        blending colors, textures, and fragrances that thrive in Kauai&apos;s
-        unique climate, creating breathtaking landscapes that stand the test
-        of time. `}
       />
 
       <ExpandableAboutRow
